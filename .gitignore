@@ -1,7 +1,9 @@
 *
-.ipynb_checkpoints/*
 !.gitignore
 !*.ipynb
 !*.py
 !*.pdf
 !*/
+
+#unblocking .ipynb opens up notebooks cache
+.ipynb_checkpoints/*.ipynb 
